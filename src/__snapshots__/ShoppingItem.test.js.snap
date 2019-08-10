@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shopping Item renders empty given no item 1`] = `
+<li>
+  <h2
+    style={
+      Object {
+        "textDecoration": null,
+      }
+    }
+  />
+  <button
+    type="button"
+  >
+    Check
+  </button>
+  <button
+    type="button"
+  >
+    Delete
+  </button>
+</li>
+`;
+
+exports[`Shopping Item renders item when supplied 1`] = `
+<li>
+  <h2
+    style={
+      Object {
+        "textDecoration": null,
+      }
+    }
+  >
+    test-item
+  </h2>
+  <button
+    type="button"
+  >
+    Check
+  </button>
+  <button
+    type="button"
+  >
+    Delete
+  </button>
+</li>
+`;
+
+exports[`Shopping Item strikes through checked items 1`] = `
+<li>
+  <h2
+    style={
+      Object {
+        "textDecoration": "line-through",
+      }
+    }
+  >
+    checked-item
+  </h2>
+  <button
+    type="button"
+  >
+    Check
+  </button>
+  <button
+    type="button"
+  >
+    Delete
+  </button>
+</li>
+`;

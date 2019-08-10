@@ -10,11 +10,12 @@ export default function ShoppingItem(props) {
       </h2>
       <button type="button">Check</button>
       <button type="button">Delete</button>
-
     </li>
   )
 
 }
+
+
 
 ShoppingItem.defaultProps = {
   item: {}

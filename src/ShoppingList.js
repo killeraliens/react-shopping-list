@@ -14,5 +14,5 @@ export default function ShoppingList(props) {
 }
 
 ShoppingList.defaultProps = {
-  shoppingItems: []
+  items: []
 };
