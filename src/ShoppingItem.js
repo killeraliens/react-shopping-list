@@ -8,8 +8,18 @@ export default function ShoppingItem(props) {
       }} >
         {props.item.name}
       </h2>
-      <button type="button">Check</button>
-      <button type="button">Delete</button>
+      <button
+        type="button"
+        onClick={() => props.onCheckItem(props.item)}
+      >
+        Check
+      </button>
+      <button
+        type="button"
+        onClick={() => props.onDeleteItem(props.item)}
+      >
+        Delete
+        </button>
     </li>
   )
 
